@@ -121,12 +121,12 @@ Level          | Font-size   | Font-weight
 ---------------|-------------|------------
 Small Text     | 80%         | $font-weight-light
 Paragraph      | 1.6rem      | $font-weight-light
-H1             | 4.8rem      | $font-weight-bold
-H2             | 3.2rem      | $font-weight-bold
-H3             | 2.4rem      | $font-weight-bold
-H4             | 2rem        | $font-weight-bold
-H5             | 1.6rem      | $font-weight-bold
-H4             | 1.6rem      | $font-weight-bold
+H1             | 4.8rem      | $font-weight-regular
+H2             | 3.2rem      | $font-weight-regular
+H3             | 2.4rem      | $font-weight-regular
+H4             | 2rem        | $font-weight-regular
+H5             | 1.6rem      | $font-weight-regular
+H4             | 1.6rem      | $font-weight-regular
 
 ### Line heights
 Line height is measured by taking the font size and adding 0.8rem. 
