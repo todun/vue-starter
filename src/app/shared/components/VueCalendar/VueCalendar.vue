@@ -376,10 +376,12 @@ export default {
   padding: $calendar-header-padding;
   background: $calendar-header-bg;
   text-shadow: $calendar-header-text-shadow;
+
   cursor: pointer;
 
-  div {
+  * {
     margin: 0;
+    font-weight: $calendar-header-font-weight;
   }
 }
 
@@ -416,15 +418,7 @@ export default {
 
         span {
           position: relative;
-          top: $space-8;
-
-          @include mediaMin(tabletPortrait) {
-            top: 15%;
-          }
-
-          @include mediaMin(largeDesktop) {
-            top: 17%;
-          }
+          top: 20%;
         }
       }
     }
