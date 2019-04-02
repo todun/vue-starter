@@ -241,7 +241,9 @@ export default {
 }
 
 .logo {
-  width: $space-32;
-  height: $space-32;
+  position: relative;
+  top: $space-4;
+  width: $space-24;
+  height: $space-24;
 }
 </style>
