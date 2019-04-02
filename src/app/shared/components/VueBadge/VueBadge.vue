@@ -11,6 +11,7 @@ export default {
     color: {
       type: String,
       validator: variationValidator,
+      default: 'default',
     },
     outlined: {
       type: Boolean,

@@ -28,6 +28,7 @@ export default {
     color: {
       type: String,
       validator: variationValidator,
+      default: 'default',
     },
     disabled: {
       type: Boolean,

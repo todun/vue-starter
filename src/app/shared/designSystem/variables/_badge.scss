@@ -9,6 +9,10 @@ $badge-font-weight: $font-weight-regular;
 $badge-outlined-border-width: 1px;
 
 $badge-variations: (
+  'default': (
+    'bg': $brand-default,
+    'color': foreground-color($brand-default),
+  ),
   'primary': (
     'bg': $brand-primary,
     'color': foreground-color($brand-primary),

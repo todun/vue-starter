@@ -18,6 +18,7 @@ $space-52: $space-unit * 6.5; // 52px
 $space-84: $space-unit * 10.5; // 84px
 
 /* Brand Variations */
+$brand-default: palette-color-level('black', 80);
 $brand-primary: palette-color-level('coral', 100);
 $brand-secondary: palette-color-level('blue', 100);
 $brand-success: palette-color-level('green', 100);

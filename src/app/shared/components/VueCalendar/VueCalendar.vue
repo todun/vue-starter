@@ -96,9 +96,7 @@
     </div>
 
     <div :class="$style.footer">
-      <vue-button @click.stop.prevent="onClose" color="secondary" ghost>{{
-        $t('common.cancel' /* Cancel */)
-      }}</vue-button>
+      <vue-button @click.stop.prevent="onClose" ghost>{{ $t('common.cancel' /* Cancel */) }}</vue-button>
       <vue-button @click.stop.prevent="onChange" color="primary">{{ $t('common.ok' /* Ok */) }}</vue-button>
     </div>
   </div>
